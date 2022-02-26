@@ -26,7 +26,6 @@ library('optimx')
   #Initial condition specification
   y0 = c(0,0)
   
-
   
   #Pseudo-linear representation with log transformation for volatility
   fun_mat_A = function(t,State,theta)hypo_fhn_matA_inhomogen(t,State,theta)
