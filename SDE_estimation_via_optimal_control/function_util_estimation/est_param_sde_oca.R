@@ -134,7 +134,6 @@ est_param_sde_oca<- function(Times_obs,Yn,State_ini,param_ini,sigma_ini=c(),mat_
     fval = sum(fval_seq)
     
    
-
     return(list(ensemble_Ricatti_comp,fval= fval))
   }
   
