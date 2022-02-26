@@ -138,7 +138,6 @@ compute_Riccati_State_sde_oca <- function(Times_obs,Yn,State_i_m1,mat_A,vect_r,m
     if (control_i_normalized_nkk>0){
     Crit_extern =  Crit_extern + log((control_i_normalized_nkk^(dim_control/2-1))*exp(-control_i_normalized_nkk/2))
     }
-    
      
     Val_sum_square_control = Val_sum_square_control+ sum(control_ukk^2)
   }
