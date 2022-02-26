@@ -78,7 +78,6 @@ library('optimx')
       computation_time = difftime(T2, T1, units = "secs")
       Crit_extern = out_sde_est$Crit_extern
       
-   
       print(parameter_estimation)
     },error=function(cond){
      return(1)}
