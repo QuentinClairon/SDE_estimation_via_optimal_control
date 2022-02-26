@@ -19,8 +19,7 @@ g_i = theta[9]
 conduct = theta[10]
 
 matA_t <-function (t,y){
-  res_at  =matrix(rep(0,dim_syst^2),dim_syst,dim_syst)
-  
+  res_at  =matrix(rep(0,dim_syst^2),dim_syst,dim_syst) 
   res_at[1,] = c(-g_l/conduct , (- y[1]+v_e)/conduct , (-y[1]+v_i)/conduct , (g_l*v_l+val_I)/conduct )
   res_at[2,] = c(0,-inv_tau_e,0,inv_tau_e*g_e)
   res_at[3,] = c(0,0,-inv_tau_i,inv_tau_i*g_i)
