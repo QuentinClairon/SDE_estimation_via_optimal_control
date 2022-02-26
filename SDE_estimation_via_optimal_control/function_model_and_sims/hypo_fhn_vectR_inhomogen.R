@@ -1,6 +1,5 @@
 hypo_fhn_vectR_inhomogen <- function(t,theta){
   dim_syst = 2
-  
   vect_r= matrix(0,dim_syst,1)
   
   inv_eps = theta[1]
