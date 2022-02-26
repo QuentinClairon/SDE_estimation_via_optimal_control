@@ -53,7 +53,6 @@ library('optimx')
   #Penalization hyperparameter selection
   weight_obs_trial = c(10^8,5*10^8,10^9,5*10^9)
   
-  
   # Known initial condition
   x_0_known = y0
   
