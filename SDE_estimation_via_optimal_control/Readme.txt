@@ -3,7 +3,7 @@ The code contained in this folder is here to reproduce the simulated section res
 
 For the code to work you simply need to set this folder as the working directory. It is composed of several scripts and two folders. 
 
-Script:
+Script: 
 The scripts simulate data set according to the models and experimental designs presented in "Section: 5 Experiments"
 and then proceed to estimation by using the optimal control based methods with the same hyperparameters as in the article:
 1) Scripts "script_test_cyclic_neuron_estimation"  reproduces experimental designs and optimal control based estimation procedures of section 5.2.1
