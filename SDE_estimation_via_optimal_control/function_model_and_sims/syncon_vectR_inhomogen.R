@@ -1,7 +1,6 @@
 syncon_vectR_inhomogen <- function(t,theta){
   dim_syst = 3
   
-  
   g_l = theta[1]
   v_l = theta[2]
   v_e = theta[3]
