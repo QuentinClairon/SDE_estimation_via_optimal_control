@@ -1,10 +1,8 @@
 monotone_cyclic_neuron_sim <- function(deb,h,fin,theta,y0,c_k){
 
-  Times_obs = seq(deb,fin, by=h) 
-
-dim_syst =  3;
-
-nu_k = theta[1];
+Times_obs = seq(deb,fin, by=h) 
+dim_syst =  3
+nu_k = theta[1]
 
 
 Mat_A =  matrix(rep(0,dim_syst^2),dim_syst,dim_syst)
