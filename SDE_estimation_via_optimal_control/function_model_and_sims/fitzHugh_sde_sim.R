@@ -3,7 +3,7 @@ fitzHugh_sde_sim <- function(deb,h,fin,theta,y0,sigma){
   Times_obs = seq(deb,fin, by=h) 
   nb_obs = length(Times_obs)
   
-  dim_syst =  2;
+  dim_syst =  2
   
   eps = theta[1]
   gamma = theta[2]
