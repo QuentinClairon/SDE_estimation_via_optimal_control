@@ -3,6 +3,7 @@ The code contained in this folder is here to reproduce the simulated section res
 
 For the code to work you simply need to set this folder as the working directory. It is composed of several scripts and two folders. 
 
+
 Script: 
 The scripts simulate data set according to the models and experimental designs presented in "Section: 5 Experiments"
 and then proceed to estimation by using the optimal control based methods with the same hyperparameters as in the article:
